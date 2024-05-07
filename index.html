@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" image="x-icon" href="static/images/icons/fracao_divertida_bonecos.ico">
+	<title>Fração Divertida</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all and (max-width: 300px)" href="static/css/style-min-100-max-300.css">
+	<link rel="stylesheet" type="text/css" media="all and (min-width: 301px) and (max-width: 600px)" href="static/css/style-min-300-max-600.css">
+	<link rel="stylesheet" type="text/css" media="all and (min-width: 600px) and (max-width: 1240px)" href="static/css/style-min-600-max-1240.css">
+	<link rel="stylesheet" type="text/css" media="all and (min-width: 1241px)" href="static/css/style-normal.css">
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-styles.css">
+	<style type="text/css">
+		#slide-up {
+			position: fixed;
+			bottom: 2vh;
+			right: 4vw;
+			border-radius: 100%;
+			width:  20px;
+			height: 20px;
+			background: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 6px;
+			margin: 0;
+			opacity: 0;
+			transition: 0.5s ease;
+		}
+
+		#slide-up img {
+			width: inherit;
+			height: inherit;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div>
+			<h4 class="roboto-medium">Grupo Lilás</h4>
+		</div>
+	</header>
+	<main>
+		<div id="slide-up">
+			<img src="static/images/arrow-up.png" alt="arrow-up">
+		</div>
+		<section>
+			<div id="presentation" class="yellow">
+				<img src="static/images/fracao-divertida.png" alt="">
+			</div>
+
+			<div class="card orange">
+				<div>
+					<h1 class="topic-to-center">O que é fração divertida?</h1>
+
+					<p class="roboto-light paragraph-to-left">A <strong><i>Fração Divertida</i></strong> é um jogo que tem como objetivo desafiar os jogadores a resolverem problemas envolvendo operações fracionárias de forma estratégica e educativa, estimulando o raciocínio matemático e a diversão.</p>
+
+					<p class="paragraph-to-left">Os recursos diferencias do jogo são: Os peões possuem em seu topo, texturas diferentes para que possa ser reconhecido pelo tato.</p>
+
+					<p class="paragraph-to-left">O tabuleiro, o recurso das frações e as cartas possuem a escrita em Braille.</p>
+				</div>
+			</div>
+
+			<div class="card limegreen fit">
+				<div>
+					<h1 class="topic-to-center">Regras do Jogo</h1>
+
+					<p class="paragraph-to-left">1 - Cada jogador escolhe uma peça de jogo para representá-lo no tabuleiro.</p>
+
+					<p class="paragraph-to-left">2 - As cartas com situações envolvendo frações são embaralhadas e colocadas viradas para baixo.</p>
+
+					<p class="paragraph-to-left">3 - O primeiro jogador sorteia uma carta e lê em voz alta a situação apresentada.</p>
+
+					<p class="paragraph-to-left">4 - O jogador deve calcular a fração correta com base na situação apresentada e mover suas peças no tabuleiro de acordo com a resposta.</p>
+
+					<p class="paragraph-to-left">5 - Se acertarem o resultado, avançam no tabuleiro. Se errarem, permanecem no mesmo lugar.</p>
+
+					<p class="paragraph-to-left">6 - O jogo continua com os jogadores sorteando cartas e respondendo aos desafios até que um jogador alcance a linha de chegada no tabuleiro.</p>
+				</div>
+			</div>
+
+			<div class="card lightpurple">
+				<h1 class="topic-to-center">Vencedor</h1>
+
+				<p class="paragraph-to-center">O jogador que atingir a linha de chegada no tabuleiro primeiro, ou o jogador que estiver em posição mais avançada quando todas as cartas forem respondidas, vence.</p>
+			</div>
+
+			<div class="card magenta fit">
+				<h1 class="topic-to-center">Quem Somos</h1>
+
+				<div id="group-members">
+					<div class="member">
+						<img class="member-picture" src="static/images/members/herold.jpeg" alt="herold's picture">
+					</div>
+					<div class="member">
+						<img class="member-picture" src="static/images/members/herold.jpeg" alt="herold's picture">
+					</div>
+					<div class="member">
+						<img class="member-picture" src="static/images/members/herold.jpeg" alt="herold's picture">
+					</div>
+					<div class="member">
+						<img class="member-picture" src="static/images/members/herold.jpeg" alt="herold's picture">
+					</div>
+					<div class="member">
+						<img class="member-picture" src="static/images/members/herold.jpeg" alt="herold's picture">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script type="text/javascript" src="static/js/slide.js"></script>
+</body>
+</html>
