@@ -210,7 +210,7 @@ p {
 	width: 30%;
 	height: 80%;
 	border-radius: 16px;
-	max-width: 90px;
+	max-width: 72px;
 }
 
 .yellow-font {
@@ -243,6 +243,11 @@ p {
 	align-items: flex-start !important;
 	justify-content: flex-start !important;
 	flex-direction: column !important;
+}
+
+.description span {
+	position: relative;
+	font-size: 82%;
 }
 
 .signature {
